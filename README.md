@@ -16,7 +16,7 @@ INSTALLATION
 <code>create database france;</code></br>
 <code>create database germany;</code></br>
 <code>\q</code></br>
-  c.  Import the data in the DB we've juste created using the following commands</br>
+  c.  Import the data in the DB we've just created using the following commands</br>
 <code>./psql -U postgres brazil < brazil.sql</code></br>
 <code>./psql -U postgres france < france.sql</code></br>
 <code>./psql -U postgres germany < germany.sql</code></br>
