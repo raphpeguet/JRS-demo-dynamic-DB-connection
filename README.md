@@ -23,3 +23,8 @@ INSTALLATION
 <code>./psql -U postgres brazil < brazil.sql</code></br>
 <code>./psql -U postgres france < france.sql</code></br>
 <code>./psql -U postgres germany < germany.sql</code></br>
+
+DEMO
+
+Once you have created the DBs and imported the resources in JRS you are ready to test the dynamic DB connection by viewing the **Public/Source Switch/Freight Dashboard** being logged as brazilian_user then french_user and then german_user.</br>
+Note how the data is different and notice that each user will only see the data from their respective DB.
