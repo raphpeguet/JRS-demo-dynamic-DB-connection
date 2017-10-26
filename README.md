@@ -7,7 +7,7 @@ INSTALLATION
 1. Download and Import the repository exports in your JasperReports Server Enterprise 6.4 or later</br>
   a. DatasourceSwitch.zip will import the Dashboard and all the resources it uses including the dynamic datasource connection</br>
   b. organization_1_JRSexport includes the sub-organizations, their profile attributes and the users that are needed.</br>
-  NOTE: You can import these with jasperadmin user in default organization</br>
+  NOTE: You can import these with jasperadmin user in default organization (under Manage > Organizations and right click on the org name)</br>
 2. Create the DB and import the data.</br>
   a. The sample is configure to run automatically on a bundle install so using the DB Postgres bundled located at Jasperreportserver(version)/postgresql/bin</br>
   b. Download the sql files that includes all the data we need</br>
