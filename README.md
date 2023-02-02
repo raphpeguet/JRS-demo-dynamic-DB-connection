@@ -9,7 +9,7 @@ INSTALLATION
   b. organization_1_JRSexport includes the sub-organizations, their profile attributes and the users that are needed.</br>
   NOTE: You can import these with jasperadmin user in default organization (under Manage > Organizations and right click on the org name)</br>
 2. Create the DB and import the data.</br>
-  a. The sample is configure to run automatically on a bundle install so using the DB Postgres bundled located at Jasperreportserver(version)/postgresql/bin</br>
+  a. The sample is configure to run automatically on a bundle install so using the bundled Postgres DB located at Jasperreportserver(version)/postgresql/bin</br>
   b. Download the sql files that includes all the data we need</br>
   c. Create the 3 databases that our Dashboad will use (in Mac, for Windows you will use psql command directly)</br>
   NOTE: The password for the posgres user is **postgres**</br>
